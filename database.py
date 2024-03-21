@@ -26,6 +26,4 @@ def add_message_to_db(data):
     )
     print(sql)
     conn.execute(sql)
-    conn.commit()
-  
-            
+    conn.commit() 
